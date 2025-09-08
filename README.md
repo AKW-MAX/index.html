@@ -1,7 +1,7 @@
 # 1. What are HTML forms
 Hello there, today we are going to learn about HTML forms, how to create them, the different elements that are used when creating the forms.
 What is a HTML forms? It is an area with input elements where users enter data based on the questions asked and the data is often sent to a sever for processing.
-Forms are defined with the &ltform&gt tag
+Forms are defined with the &lt;form&gt; tag
 Pages that make use of HTML forms include login, registration, search, paymenent etc.
 # 2. HTML form structure
 As we have said the HTML forms are defined by the &lt;form&gt; tag which has an opening and closing tag.
