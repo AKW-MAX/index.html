@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <form>
+
+       <legend><h1>User Registration Form</h1></legend><br>
+       <fieldset>
+           <legend><h3>Personal Information</h3></legend>
+           <label >First Name</label><input type="text" placeholder="First Name"><br><br>
+           <label>Middle Name</label><input type="text"placeholder="Middle Name"><br><br>
+           <label>Surname<input type="text"placeholder="Surname"><br><br>
+           <label>Date of Birth</label><input type="date"placeholder="mm/dd/yyyy"><br><br>
+           <label>Age</label><input type="number"><br><br>
+           <label>Gender</label><input type="checkbox"name="gender"value="Male">Male<input type="checkbox"value="Female">Female<br><br>
+           <label>Profile Photo:</label><input type="file"placeholder="Choose file"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+           <legend><h3>Contact & Address Information</h3></legend>
+           <label>Email Address</label><input type="email"placeholder="janedoe@gmail.com"><br><br>
+           <label>Phone Number</label><input type="number"placeholder="0712345678"><br><br>
+           <label>Personal Website:</label><input type="text"placeholder="https://example.com"><br><br>
+           <label>Street Address</label><input type="text"placeholder="Kariba Road-24"><br><br>
+           <label>City of Residence</label><input type="text"placeholder="Nakuru"><br><br>
+           <label>Country:</label><select name="country" id="Country">Select Country<option value="USA">United states of America</option><br><br>
+           <option value="KENYA">Kenya</option>
+           </select><br><br>       
+           <label>ZIP/Postal Code:</label><input type="text"><br><br>
+           <label>Preffered Contact Time</label><input type="time">
+        </fieldset>
+        <fieldset>
+            <legend><h3>Preferences & Interests</h3></legend><br>
+            <label>Favorite Colour:</label><input type="color"><br><br>
+            <label>Experience Level (1-10)</label><input type="range"><br><br>
+            <label>Birth Month:</label><input type="month"><br><br>
+            <label>Available Week</label><input type="week"><br><br>
+            <label>Search Key Words:</label><input type="search"placeholder="Search Key words"><br><br>
+            <label>Interests (Select all that apply):</label><br>
+               <input type="checkbox"id="Interests1"name="interest1"value="Technology">
+               <label for="interest1">Technology</label><br>
+               <input type="checkbox"id="interest2"name="interest2"value="Sports">
+               <label for="interest2">Sports</label><br>
+               <input type="checkbox"id="interest3"name="interest3"value="Music">
+               <label for="interest3">Music</label><br>
+               <input type="checkbox"id="interest4"name="interest4"value="Travel">
+               <label for="interest4">Travel</label><br>
+               <input type="checkbox"id="interest5"name="interest5"value="Reading">
+               <label for="interest5">Reading</label><br>
+               <input type="checkbox"id="interest6"name="interest6"value="Cooking">
+               <label for="interest6">Cooking</label><br><br>
+               <label for="Education-Level">Education Level</label>
+                   <select name="Education-Level"id="Education-Level">
+                    <option value="primary-education">Primary school Education</option>
+                    <option value="O-levels">O-levels</option>
+                    <option value="A-levels">A-levels</option>
+                    </select><br><br>
+                <label>Create Password</label><input type="password"><br><br>
+                <label>Comfirm Password</label><input type="password"><br><br>
+            
+        <fieldset>
+            <legend><h3>Feedback & Additional Information</h3></legend>
+            <label for="aboutyoursel">Tell us about yourself:</label><br>
+            <textarea id="aboutyourself"name="aboutyoursel"rows="4"cols="50"placeholder="write a brief description about yourself..."></textarea><br><br>
+            <label for="Suggestions-and-improvements">Suggestions and Improvements</label><br>
+            <textarea id="Suggestions-and-improvements"name="Suggestions-and-improvements"rows="4"cols="50"placeholder="Any suggestions or feedback..."></textarea><br><br>
+            <label>Registration Date & Time:</label><input type="datetime-local"><br><br>
+            <label for="sources">How did you hear from us?</label>
+            <select name="sources"id="sources">
+                <option value="sources"name="social media">Social Media</option>
+                <option value="sources"name="friend">Friend</option>
+                <option value="sources"name="articles">Articles</option>
+            </select><br><br>
+            <label>Upload Resume(optional)</label><input type="file"><br><br>
+            <input type="checkbox"id="agree1"name="agree1"value="Subscribe to our newsletter">
+            <label for="agree">Subscribe to our newsletter</label><br><br>
+            <input type="checkbox"id="agree2"name="agree2"value="I agree to Terms and Conditions">
+            <label for="agree2">I agree to the Terms and Conditions</label><br><br>
+            <input type="checkbox"id="agree3"name="agree3"value="I agree to the Privacy Policy">
+            <label for="agree3">I agree to the Privacy Policy</label><br><br>
+        </fieldset><br><br>
+
+    <input type="submit"value="Register">
+    <input type="reset"value="Clear form">
+
+
+
+    </form>
+</body>
+</html
