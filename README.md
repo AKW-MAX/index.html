@@ -1,17 +1,18 @@
-# 1. What are HTML forms
+# 1. What are HTML forms and how to make a Registration form
 Hello there, today we are going to learn about HTML forms, how to create them, the different elements that are used when creating the forms.
 What is an HTML form? It is an area with input elements where users enter data based on the questions asked and the data is often sent to a sever for processing.
 Forms are defined with the &lt;form&gt; tag
 Pages that make use of HTML forms include login, registration, search, payments etc.
+My project involves making a registration form
 # 2. HTML form structure
 As we have said the HTML forms are defined by the &lt;form&gt; tag which has an opening and closing tag.
-All the elements in the form are going th be enclosed by this tag, it acts as a container for the different types of input elements such as textfields,checkboxes,radio buttons,submit buttons etc.
+All the elements in the form are going th be enclosed by this tag, it acts as a container for the different types of input elements such as textfields,checkboxes,radio buttons,submit buttons etc. All these elements are important when making of the registration form
 ## **&lt;fieldset&gt;** 
-This tag which is used to group related elements in a form, it draws a box around the related elements for example my form has the first &lt;fieldset&gt; **personal infomation** then followed by **contact and address information**.
+This tag which is used to group related elements in a form, it draws a box around the related elements for example our registration form is divided into sections with different headings. Each section has it's own &lt;fieldset&gt; opening and closing tag.
 This tag has both opening and closing tags where those group of related elements are contained.
 ## **&lt;legend&gt;**
-This tag is used is used to define a caption or a title for the &lt;fieldset&gt; element, in my form the first &lt;legend&gt; is the tittle **personal information**
-this tag encloses the title of the different &lt;fieldset&gt; that you will have on your form.
+This tag is used is used to define a caption or a title for the &lt;fieldset&gt; element, in our form the first &lt;legend&gt; is the tittle **personal information**  then followed by **contact and address information** then **Preference & Interest** and lastly **Feedback and Additional Information**
+This tag encloses the title of the different &lt;fieldset&gt; that you will have on your form.
 ## **&lt;label&gt;**
 This tag adds a small description to an input field. It renders text that provide a brief description about an input field.
 As you can observe my first &lt;label&gt; was **First Name** where the user inputs their name. 
