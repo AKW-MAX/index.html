@@ -2,7 +2,7 @@
 Hello there, today we are going to learn about HTML forms, how to create them, the different elements that are used when creating the forms.
 What is an HTML form? It is an area with input elements where users enter data based on the questions asked and the data is often sent to a sever for processing.
 Forms are defined with the &lt;form&gt; tag
-Pages that make use of HTML forms include login, registration, search, paymenent etc.
+Pages that make use of HTML forms include login, registration, search, payments etc.
 # 2. HTML form structure
 As we have said the HTML forms are defined by the &lt;form&gt; tag which has an opening and closing tag.
 All the elements in the form are going th be enclosed by this tag, it acts as a container for the different types of input elements such as textfields,checkboxes,radio buttons,submit buttons etc.
@@ -18,7 +18,7 @@ As you can observe my first &lt;label&gt; was **First Name** where the user inpu
 # HTML input Elements
 This are elements  that are designed for users to enter data they include;
 ### **checkboxes**
-The syntax for checkboxes is &lt;input type="checkboxes"&gt;<b>
+The syntax for checkboxes is &lt;input type="checkboxes"&gt;
 This tag creates a checkbox, and each checkbox is paired with a &lt;label&gt; to display the associated text.
 it is important to include *for* attribute on the &lt;label&gt; or else the text will not be clickable.
 This element was applied when I asked about the education level of the user list came up for the user to choose.
